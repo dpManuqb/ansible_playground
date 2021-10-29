@@ -9,6 +9,7 @@ cat <<EOF > ansible.cfg
 [defaults]
 inventory = hosts
 remote_user = vagrant
+remote_port = 22
 host_key_checking = False
 EOF
 
